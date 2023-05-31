@@ -1,65 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 @media (min-width: 375px) {
-.menu-icon {
+    .menu-icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 80%;
-}
+  }
 
-.homepage {
+   .homepage {
     background: url(./header-shapes\ mobile.png) no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.intro {
+    .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    }
+  }
 
-.intro h2 {
-     font-size: 40px;
+    .intro h2 {
+    font-size: 40px;
     font-weight: 700;
-}
+  }
 
-.detail p {
+    .detail p {
     text-align: left;
     font-size: 20px;
     font-weight: 400;
     line-height: 2rem;
     vertical-align: top;
-}
+  }
 
-.connect {
+    .connect {
     text-align: left;
-    color: #7F8CFF;
-    ;
-}
+    color: #7F8Cff;
+  }
 
-.logos {
+    .logos {
     display: flex;
     gap: 20px;
     color: #505F79;
-    position:absolute
+    position: absolute;
+  }
 
-}
+    .logo {
+    color:#6070ff;
+  }
 
-.logo{
-    color:#6070FF;
-    ;
-}
-
-.menubars {
+    .menubars {
     width: auto; 
     height: 20%;
-    color: #6070FF;
-}
+    color: #6070ff;
+  }
 }
