@@ -29,6 +29,8 @@
         text-align: left;
         font-size: 20px;
         font-weight: 400;
+        line-height: 2rem;
+        vertical-align: top;
     }
     .connect {
         text-align: left;
