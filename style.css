@@ -7,6 +7,7 @@
     justify-content: space-between;
     width: 80%;
 }
+
 .homepage {
     background: url(./header-shapes\ mobile.png) no-repeat;
     height: 100vh;
@@ -15,6 +16,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -22,10 +24,12 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
     }
+
 .intro h2 {
      font-size: 40px;
     font-weight: 700;
 }
+
 .detail p {
     text-align: left;
     font-size: 20px;
@@ -33,11 +37,13 @@
     line-height: 2rem;
     vertical-align: top;
 }
+
 .connect {
     text-align: left;
     color: #7F8CFF;
     ;
 }
+
 .logos {
     display: flex;
     gap: 20px;
@@ -45,10 +51,12 @@
     position:absolute
 
 }
+
 .logo{
     color:#6070FF;
     ;
 }
+
 .menubars {
     width: auto; 
     height: 20%;
