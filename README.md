@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio-Setup <a name="about-project"></a>
 
-This is the first technical Microverse project it tests more on Git, GitHub, GitHub Workflow and Linters.
+This is the mobile size web page project, it tests more on Git, GitHub, GitHub Workflow and Linters.
 
 *[Portfolio-Setup]* is a HTML CSS project
 
