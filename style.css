@@ -40,19 +40,19 @@
 
 .connect {
   text-align: left;
-  color: #7F8Cff;
+  color: #7f8Cff;
 }
 
 .logos {
   display: flex;
   gap: 20px;
-  color: #505F79;
+  color: #505f79;
   position: absolute;
   cursor: pointer;
 }
 
 .logo {
-  color:#6070ff;
+  color: #6070ff;
 }
 
 .menubars {
@@ -60,4 +60,5 @@
   height: 20%;
   color: #6070ff;
 }
+
 }
