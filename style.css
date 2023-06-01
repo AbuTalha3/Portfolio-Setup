@@ -9,7 +9,7 @@
   }
 
   .homepage {
-    background: url(./header-shapes\ mobile.png) no-repeat;
+    background: url(./images/header-shapes\ mobile.png) no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -43,12 +43,15 @@
     color: #7f8cff;
   }
 
-  .logos {
+  .logos ul {
     display: flex;
     gap: 20px;
     color: #505f79;
-    position: absolute;
     cursor: pointer;
+    list-style: none;
+    float: left;
+    justify-content: flex-start;
+    margin-left: -3em;
   }
 
   .logo {
