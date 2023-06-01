@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 @media (min-width: 375px) {
-  .menu-icon {
+  header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    margin: 1.25rem;
   }
 
   .homepage {
@@ -25,22 +25,37 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  .intro h2 {
+  .intro h1 {
     font-size: 40px;
     font-weight: 700;
+    margin-top: -3rem;
+    color: #172b4d;
   }
 
-  .detail p {
-    text-align: left;
-    font-size: 20px;
+  .detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2rem;
-    vertical-align: top;
+    line-height: 24px;
+    padding: 0 20px;
+    margin: -3rem 0 0 1rem;
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
   }
 
   .connect {
-    text-align: left;
+    margin: -1rem 0 0 -8rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .connect h3 {
     color: #7f8cff;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
   }
 
   .logos ul {
@@ -49,14 +64,14 @@
     color: #505f79;
     cursor: pointer;
     list-style: none;
-    float: left;
-    justify-content: flex-start;
-    margin-left: -3em;
+    margin-left: -1rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo {
     color: #6070ff;
-    text-decoration:none;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 18px;
