@@ -58,6 +58,10 @@
     font-size: 16px;
   }
 
+  ul {
+    list-style: none;
+  }
+
   .logos ul {
     display: flex;
     gap: 20px;
@@ -96,7 +100,7 @@
     padding: 16px;
     width: 327px;
     height: 596px;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 16px;
     background-color: white;
   }
@@ -106,33 +110,30 @@
     height: 220px;
   }
 
-  ul {
-    list-style: none;
-  }
-
   .card-text button {
     display: flex;
-    flex-direction: column;   
-    width: 137px;    
-    background: #FFFFFF;
-    border: 1px solid #7F8CFF;    
-    box-sizing: border-box;    
+    flex-direction: column;
+    width: 137px;
+    background: #fff;
+    border: 1px solid #7f8cff;
+    box-sizing: border-box;
     padding: 16px;
-    gap: 12px;        
-    background: #FFFFFF;    
-    border-radius: 16px;    
+    gap: 12px;
+    border-radius: 16px;
     order: 0;
     flex-grow: 0;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;   
+    font-weight: 500;
     color: #396df2;
   }
+
   .card-text {
     display: flex;
     flex-direction: column;
   }
-  h3 {
+
+  .conect h3 {
     display: flex;
     font-weight: 700;
     font-size: larger;
@@ -141,47 +142,43 @@
     flex: none;
     flex-grow: 0;
     order: 0;
-    font-size: 32px;
     font-style: normal;
     line-height: 44px;
     color: #172b4d;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
   }
 
   .programes ul {
     display: flex;
     color: #5070ff;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.03em;
     gap: 12px;
   }
-  
+
   .programes ul li {
     width: 68px;
     height: 16px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 16px;   
+    line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff; 
+    color: #6070ff;
     flex: none;
     order: 0;
     flex-grow: 0;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 3%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 12px 10px;
     background: #ebebff;
-    border-radius: 8px
+    border-radius: 8px;
   }
-   .expertise ul {
+
+  .expertise ul {
     display: flex;
     gap: 12px;
   }
@@ -200,12 +197,9 @@
     justify-content: center;
     align-items: center;
   }
-  
 }
 
 body {
   text-align: center;
   list-style: none;
-
 }
-
