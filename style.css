@@ -62,10 +62,11 @@
   }
 
   .cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    padding: 114px 0;
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    align-items: center;
+    place-items: center;
     gap: 20px;
     background-color: #e5e5e5;
   }
@@ -98,6 +99,11 @@
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
+  }
+
+  .card-text h3 span {
+    display: block;
+    text-align: left;
   }
 
   ul {
@@ -153,8 +159,24 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;    
+    cursor: pointer;
     color: #396df2;
+  }
+
+  .card-text button:hover {
+    background-color: #6070ff;
+    color: #fff;
+    box-shadow: 0 2px 10px #6070ff;
+  }
+
+  .card-text button:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+  .card-text button:disabled {
+    background-color: #c1c7d0;
+    color: #5e6c84;
   }
 
   .logos ul {
@@ -257,14 +279,25 @@
   .expertise ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #344563;
+  }
+
+  .designed-color {
+    color: #7a869a;
+  }
+
+  .expertise ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 4px;
   }
 
   .logo-skills {
-    display: flex;
     background-color: #f7f7f9;
-    align-items: center;
     gap: 1rem;
     border-radius: 8px;
   }
@@ -274,6 +307,18 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #def1e6;
+  }
+}
+
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1058px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
