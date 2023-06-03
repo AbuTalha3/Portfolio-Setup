@@ -140,15 +140,6 @@
     padding: 4px 12px;
   }
 
-  .expertise ul li:first-child {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    color: #344563;
-  }
-
   .card-text button {
     padding: 16px;
     gap: 12px;
@@ -162,22 +153,6 @@
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #396df2;
-  }
-
-  .card-text button:hover {
-    background-color: #6070ff;
-    color: #fff;
-    box-shadow: 0 2px 10px #6070ff;
-  }
-
-  .card-text button:active {
-    background-color: #2230d2;
-    color: #fff;
-  }
-
-  .card-text button:disabled {
-    background-color: #c1c7d0;
-    color: #5e6c84;
   }
 
   .logos ul {
@@ -246,18 +221,18 @@
   }
 
   .about-me h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .about-me p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     font-style: normal;
     font-weight: 400;
@@ -267,12 +242,12 @@
   }
 
   .about-me h4 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     text-align: left;
   }
 
@@ -286,17 +261,16 @@
   .about-me button {
     padding: 12px;
     gap: 10px;
-    width: 200px;
-    background: #FFFFFF;
-    border: 1px solid #7F8CFF;
+    background: #fff;
+    border: 1px solid #7f8cff;
     border-radius: 8px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396DF2;
+    color: #396df2;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -321,6 +295,22 @@
     color: #5e6c84;
   }
 
+  .card-text button:hover {
+    background-color: #6070ff;
+    color: #fff;
+    box-shadow: 0 2px 10px #6070ff;
+  }
+
+  .card-text button:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+
+  .card-text button:disabled {
+    background-color: #c1c7d0;
+    color: #5e6c84;
+  }
+
   .more-details ul {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -331,16 +321,16 @@
     display: flex;
     justify-content: space-between;
   }
-  
+
   .more h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     display: flex;
     align-items: center;
-    color: #000000;
+    color: #000;
   }
 
   .language ul li {
@@ -348,15 +338,24 @@
     align-items: center;
     width: 303px;
     height: 66.72px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     margin: 0 0 0 -24px;
     padding: 0 24px;
     gap: 24px;
   }
 
+  .expertise ul li:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+  }
+
   .language h4 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -365,7 +364,6 @@
     align-items: center;
     color: #253858;
   }
-
 }
 
 @media (min-width: 768px) {
