@@ -7,6 +7,11 @@
   background-color: #fff;
 }
 
+body {
+  text-align: center;
+  list-style: none;
+}
+
 @media (min-width: 375px) {
   header {
     display: flex;
@@ -384,18 +389,11 @@
   }
 }
 
-body {
-  text-align: center;
-  list-style: none;
-}
-
 .form-section {
   background-image: url(./images/Contact\ me.svg);
   background-repeat: no-repeat;
   background-position: 100% 90%;
   background-size: 80%;
-  /* background-image: url(./images/backgrcontactme.png);
-  background-color: #6070ff; */
   border-radius: 35% 0 0 0;
   font-family: 'Poppins', sans-serif;
   text-align: left;
@@ -414,7 +412,6 @@ body {
   line-height: 24px;
   color: #7f8cff;
   text-align: left;
-  /* background-color: #6070ff; */
 }
 
 .contact {
