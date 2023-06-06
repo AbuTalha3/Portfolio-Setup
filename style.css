@@ -155,9 +155,9 @@
     color: #396df2;
   }
 
-  form-line{
+  .form-line {
     height: 4px;
-    background-color:  #DFE1E6;
+    background-color: #396df2;
     margin-top: 90px;
   }
 
@@ -223,7 +223,7 @@
     padding: 0 24px;
     display: flex;
     flex-direction: column;
-    gap: 12px;    
+    gap: 12px;
   }
 
   .about-me h2 {
@@ -389,10 +389,10 @@ body {
   list-style: none;
 }
 
-.form-section  {
+.form-section {
   background-image: url(./images/backgrcontactme.png);
   background-color: #6070ff;
-  border-radius: 35% 0 0 0;  
+  border-radius: 35% 0 0 0;
   font-family: 'Poppins', sans-serif;
   text-align: left;
   font-style: normal;
@@ -400,7 +400,6 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #344563;
-  text-align: center;
 }
 
 .form-section h3 {
@@ -414,14 +413,14 @@ body {
   background-color: #6070ff;
 }
 
-.contact{
+.contact {
   width: 90%;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
 }
 
-[type="text"]{
+[type="text"] {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -434,7 +433,7 @@ body {
   border-bottom: 1px solid #cfd8dc;
 }
 
-[type="email"]{
+[type="email"] {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -447,17 +446,14 @@ body {
   border-bottom: 1px solid #cfd8dc;
 }
 
-[type="text"]:hover,[type="email"]:hover{
+[type="text"]:hover,
+[type="email"]:hover {
   border-bottom: 2px solid #cfd8dc;
-
-}
-textarea:hover{
-  border: 2px solid #cfd8dc;
 }
 
-textarea{
+textarea {
   width: 100%;
-  background-color:  #fff;
+  background-color: #fff;
   font-family: 'Poppins', sans-serif;
   font-style: italic;
   font-weight: 400;
@@ -469,8 +465,12 @@ textarea{
   margin: 20px 0;
 }
 
-.form-line{
+textarea:hover {
+  border: 2px solid #cfd8dc;
+}
+
+.form-line {
   height: 1px;
-  background-color:  #fff;
+  background-color: #fff;
   margin-top: 90px;
 }
