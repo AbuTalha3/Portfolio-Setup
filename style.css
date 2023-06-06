@@ -392,6 +392,7 @@ body {
   border-radius: 5rem 0 0 0;
   background-image: url(./images/header-shapes\ mobile.png);
   background-size: cover;
+}
 
   .contact_detail {
     display: flex;
