@@ -382,3 +382,105 @@ body {
   text-align: center;
   list-style: none;
 }
+
+#contact_form {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  grid-gap: 24px;
+  background: #6070ff;
+  border-radius: 5rem 0 0 0;
+  background-image: url(./images/header-shapes\ mobile.png);
+  background-size: cover;
+}
+
+  .contact_detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .head {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+
+    .detail {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #ebebff;
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+    .input {
+      padding: 12px;
+      background: white;
+      border: 1px solid #cfd8dc;
+      border-radius: 8px;
+    }
+    .button {
+      padding: 12px;
+      gap: 10px;
+      background: #fff;
+      border: 1px solid #7f8cff;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: #396df2;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 182px;
+      height: 48px;
+    }
+    .button {
+      align-self: flex-start;
+      background: white;
+      border: 1px solid #7f8cff;
+      border-radius: 8px;
+    }
+
+    .button:hover {
+      background: #6070ff;
+      box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+      border-radius: 8px;
+    }
+
+    .button :active {
+      background: #2230d2;
+      border-radius: 8px;
+    }
+
+    .sbutton:disabled {
+      border: 1px solid #c1c7c0;
+      border-radius: 8px;
+    }
