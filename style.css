@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}  
+}
 
 body {
   text-align: center;
@@ -384,7 +384,7 @@ body {
     height: 779px;
     border-radius: 20% 0 0 0;
   }
-  
+
   .form-section h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -394,7 +394,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #fff;
     margin-bottom: 12px;
   }
 
@@ -405,7 +405,7 @@ body {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: #ebebff;
     margin-bottom: 52px;
   }
 
@@ -416,8 +416,8 @@ body {
   }
 
   .form-section form input {
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 48px;
   }
@@ -427,18 +427,18 @@ body {
   }
 
   .form-section form textarea {
-    background: #FFFFFF; 
-    border: 1px solid #CFD8DC;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 170px;
   }
 
-  .liner {   
+  .liner {
     width: 134px;
     height: 5px;
-    background: #0D151E;
+    background: #0d151e;
     border-radius: 10px;
-    margin: 20px 120px;   
+    margin: 20px 120px;
   }
 }
 
@@ -453,4 +453,3 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
