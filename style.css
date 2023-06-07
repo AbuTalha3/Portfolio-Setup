@@ -288,7 +288,7 @@ body {
     width: 182px;
     height: 48px;
   }
-  
+
   .about-me button::-webkit-validation-bubble-heading {
     background-color: #6070ff;
     color: #5e6c84;
@@ -303,7 +303,7 @@ body {
   .about-me button:active {
     background-color: #2230d2;
     color: #fff;
-  }  
+  }
 
   .card-text button:hover {
     background-color: #6070ff;
