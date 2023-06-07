@@ -269,7 +269,7 @@ body {
     margin-left: 12px;
   }
 
-  .about-me button {
+  .about-me button, .cardio {
     padding: 12px;
     gap: 10px;
     background: #fff;
@@ -295,18 +295,18 @@ body {
     color: #5e6c84;
   }
 
-  .about-me button:hover {
+  .about-me button:hover, .cardio {
     background-color: #6070ff;
     color: #fff;
     box-shadow: 0 2px 10px #6070ff;
   }
 
-  .about-me button:active {
+  .about-me button:active, .cardio {
     background-color: #2230d2;
     color: #fff;
   }
 
-  .card-text button:hover {
+  .card-text button:hover, .cardio {
     background-color: #6070ff;
     color: #fff;
     box-shadow: 0 2px 10px #6070ff;
@@ -315,6 +315,11 @@ body {
   .card-text button:active {
     background-color: #2230d2;
     color: #fff;
+  }
+   
+  .cardio {
+    background-color: #fff;
+    color: #6070ff;
   }
 
   .card-text button:disabled {
