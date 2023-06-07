@@ -300,8 +300,8 @@ body {
     color: #fff;
   }
 
-  .about-me button:disabled {
-    background-color: #c1c7d0;
+  .about-me button::-webkit-validation-bubble-heading {
+    background-color: #6070ff;
     color: #5e6c84;
   }
 
@@ -377,10 +377,11 @@ body {
 
   .form-section {
     background-image: url(./images/backgrcontactme.png);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     padding: 103px 24px;
-    background-color: #396df2;
+    background-color: #6070ff;
     height: 779px;
     border-radius: 20% 0 0 0;
   }
@@ -396,6 +397,7 @@ body {
     text-align: center;
     color: #fff;
     margin-bottom: 12px;
+    padding: 80px 80px 0 ;
   }
 
   .form-section p {
@@ -420,6 +422,7 @@ body {
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 48px;
+    padding: 0 20px;
   }
 
   ::placeholder {
@@ -431,6 +434,7 @@ body {
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 170px;
+    padding: 20px;
   }
 
   .liner {
