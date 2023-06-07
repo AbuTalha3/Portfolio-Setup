@@ -288,6 +288,11 @@ body {
     width: 182px;
     height: 48px;
   }
+  
+  .about-me button::-webkit-validation-bubble-heading {
+    background-color: #6070ff;
+    color: #5e6c84;
+  }
 
   .about-me button:hover {
     background-color: #6070ff;
@@ -298,12 +303,7 @@ body {
   .about-me button:active {
     background-color: #2230d2;
     color: #fff;
-  }
-
-  .about-me button::-webkit-validation-bubble-heading {
-    background-color: #6070ff;
-    color: #5e6c84;
-  }
+  }  
 
   .card-text button:hover {
     background-color: #6070ff;
@@ -397,7 +397,7 @@ body {
     text-align: center;
     color: #fff;
     margin-bottom: 12px;
-    padding: 80px 80px 0 ;
+    padding: 80px 80px 0;
   }
 
   .form-section p {
