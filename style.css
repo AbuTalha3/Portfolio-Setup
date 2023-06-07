@@ -422,7 +422,7 @@ body {
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 48px;
-    padding: 0 20px;
+    padding: 0 8px;
   }
 
   ::placeholder {
@@ -434,7 +434,7 @@ body {
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 170px;
-    padding: 20px;
+    padding: 8px;
   }
 
   .liner {
