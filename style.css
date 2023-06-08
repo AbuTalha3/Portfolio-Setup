@@ -297,6 +297,12 @@ body {
     background-color: #fcff4e;
   }
 
+  .logo:hover {
+    padding-left: 35px;
+    transition: 1s ease;
+    background-color: #27fc40;
+  }
+
   .about-me button::-webkit-validation-bubble-heading {
     background-color: #6070ff;
     color: #5e6c84;
