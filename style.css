@@ -299,8 +299,11 @@ body {
 
   .logo:hover {
     padding-left: 35px;
+    padding-right: 15px;
     transition: 1s ease;
     background-color: #27fc40;
+    transform: scale(1.7);
+    color: #000000;
   }
 
   .about-me button::-webkit-validation-bubble-heading {
