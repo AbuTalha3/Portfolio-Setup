@@ -103,6 +103,11 @@ body {
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
+    transition: all 1s ease-in;
+  }
+
+  .card-text h3:hover {
+    transform: scale(1.3);
   }
 
   .card-text h3 span {
