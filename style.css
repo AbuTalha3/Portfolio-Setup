@@ -19,24 +19,9 @@ body {
     margin: 1.25rem;
   }
 
-  @media screen and (min-width: 768px) {
-    p {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: x-large;
-    }
-
-    .heading-menu {
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      font-family: 'Poppins', sans-serif;
-    }
-    
-    .menubars {
-      display: none;
-    }
+  .heading-menu {
+    display: none;
   }
-
   .homepage {
     background: url(./images/header-shapes\ mobile.png) no-repeat;
     height: 100vh;
@@ -45,6 +30,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
+    background size: cover;
+    background-repeat: no-repeat;
   }
 
   .intro {
@@ -74,6 +61,11 @@ body {
     font-family: 'Poppins', sans-serif;
   }
 
+  .connect {
+    float: left;
+    margin-right: 45%;
+  }
+
   .connect h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -81,6 +73,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
+    text-align: left;
+    /* margin-right: 45%; */
   }
 
   .cards {
@@ -177,6 +171,14 @@ body {
     color: #396df2;
   }
 
+  .BSimage {
+    display: none;
+   }
+  
+   .SSimage {
+    display: block;
+   }
+
   .form-line {
     height: 4px;
     background-color: #396df2;
@@ -190,8 +192,8 @@ body {
     cursor: pointer;
     list-style: none;
     margin-left: -1rem;
-    justify-content: center;
-    align-items: center;
+    float: left;
+
   }
 
   .logo {
@@ -501,3 +503,265 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+ 
+@media screen and (min-width: 768px) {
+  
+  header {
+  margin: 1.25rem 2.5rem;
+  }
+
+
+  p {
+    font-family: 'Poppins', sans-serif;   
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;    
+  }
+
+  .intro h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    text-align: left;
+    letter-spacing: 0.37px;
+    color: #091E42;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .heading-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #634634;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .menubars {
+    display: none;
+  }
+
+  .detail {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;    
+    color: #344563;
+    padding: 0 80px;
+  }
+
+  .connect {
+    float: left;
+    margin-right: 58%;
+    padding: 0 80px;
+  }
+  .conect h3{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #ff9b7f;
+ }
+
+ .logos ul {
+    display: flex;
+    gap: 20px;
+    color: #505f79;
+    list-style: none;
+    margin-left: -1rem;
+    float: left;    
+} 
+
+.homepage {
+    background: url(./images/Aboutme-Big-screen.png) no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .cards {
+    display: grid;
+    padding: 142px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    place-items: center;
+    gap: 20px;
+    background-color: #e5e5e5;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 46px;    
+    height: 496px;
+    width: 1156px;
+    border-radius: 24px;
+  }
+
+  .card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .card-image img {
+    height: 448px;
+    width: 544px;
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+ .card-text h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;  
+  color: #091E42;
+ }
+
+ .BSimage {
+  display: block;
+ }
+
+ .SSimage {
+  display: none;
+ }
+
+   
+
+
+
+}
+
+/*
+@media screen and (min-width: 768px) {
+   
+   
+  .connect {
+  
+  }
+  
+  .cards {
+  padding: 114px 0;
+  grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .card {
+  width: 327px;
+  height: 400px;
+  }
+  
+  .card-text {
+  align-items: flex-start;
+  }
+  
+  .card-text h3 {
+  font-size: 40px;
+  line-height: 52px;
+  }
+  
+  .card-text h3 span {
+  display: inline;
+  }
+  
+  .programes ul {
+  flex-direction: column;
+  }
+  
+  .expertise ul {
+  flex-direction: column;
+  gap: 20px;
+  }
+  
+  .about-me {
+  margin-top: 114px;
+  padding: 0 2.5rem;
+  gap: 2rem;
+  }
+  
+  .about-me h2 {
+  font-size: 64px;
+  line-height: 82px;
+  }
+  
+  .about-me p {
+  text-align: justify;
+  }
+  
+  .about-me ul {
+  margin-left: 0;
+  }
+  
+  .more-details ul {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 36px 2.5rem;
+  }
+  
+  .more h3 {
+  font-size: 32px;
+  line-height: 40px;
+  }
+  
+  .language ul li {
+  width: auto;
+  margin-left: 0;
+  padding: 0.75rem 1rem;
+  }
+  
+  .language h4 {
+  font-size: 18px;
+  line-height: 24px;
+  }
+  
+  .form-section h3 {
+  font-size: 64px;
+  line-height: 82px;
+  padding: 80px;
+  }
+  
+  .form-section p {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 52px;
+  }
+  
+  .form-section form input {
+  height: 64px;
+  }
+  
+  .form-section form textarea {
+  height: 200px;
+  }
+  
+  .liner {
+  width: 268px;
+  height: 8px;
+  margin: 2rem auto;
+  }
+  }
