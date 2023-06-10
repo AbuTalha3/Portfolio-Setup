@@ -22,6 +22,7 @@ body {
   .heading-menu {
     display: none;
   }
+
   .homepage {
     background: url(./images/header-shapes\ mobile.png) no-repeat;
     height: 100vh;
@@ -74,7 +75,6 @@ body {
     line-height: 24px;
     color: #7f8cff;
     text-align: left;
-    /* margin-right: 45%; */
   }
 
   .cards {
@@ -173,12 +173,12 @@ body {
 
   .BSimage {
     display: none;
-   }
+  }
   
-   .SSimage {
+  .SSimage {
     display: block;
-   }
-
+  }
+  
   .form-line {
     height: 4px;
     background-color: #396df2;
@@ -193,7 +193,6 @@ body {
     list-style: none;
     margin-left: -1rem;
     float: left;
-
   }
 
   .logo {
@@ -311,6 +310,14 @@ body {
     height: 48px;
   }
 
+  .form-section form textarea {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    height: 170px;
+    padding: 8px;
+  }
+
   .form-section form input:hover {
     padding-left: 35px;
     transition: 1s ease;
@@ -323,7 +330,7 @@ body {
     transition: 1s ease;
     background-color: #27fc40;
     transform: scale(1.7);
-    color: #000000;
+    color: #000;
   }
 
   .about-me button::-webkit-validation-bubble-heading {
@@ -474,15 +481,7 @@ body {
   ::placeholder {
     padding: 15px 16px;
   }
-
-  .form-section form textarea {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    height: 170px;
-    padding: 8px;
-  }
-
+  
   .liner {
     width: 134px;
     height: 5px;
@@ -504,12 +503,10 @@ body {
   }
 }
  
-@media screen and (min-width: 768px) {
-  
+@media screen and (min-width: 768px) {  
   header {
-  margin: 1.25rem 2.5rem;
+    margin: 1.25rem 2.5rem;
   }
-
 
   p {
     font-family: 'Poppins', sans-serif;   
@@ -517,11 +514,11 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #344563;    
+    color: #344563;
   }
 
   .intro h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -529,7 +526,7 @@ body {
     display: flex;
     text-align: left;
     letter-spacing: 0.37px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .break {
@@ -544,7 +541,6 @@ body {
     gap: 32px;
     font-family: 'Poppins', sans-serif;
     color: #634634;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -554,7 +550,7 @@ body {
   .menubars {
     display: none;
   }
-
+  
   .detail {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
