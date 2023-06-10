@@ -505,7 +505,12 @@ body {
 
 @media screen and (min-width: 768px) {
   header {
-    margin: 1.25rem 2.5rem;
+    margin: 0 0;
+    background: #fff;
+    position: fixed;
+    height: 72px;
+    width: 100%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
   .logo {
@@ -529,9 +534,10 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 12px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 359px 260px;
+    padding: 200px 100px;
+    margin: 0;
   }
 
   .intro {
@@ -550,7 +556,7 @@ body {
     text-align: left;
     letter-spacing: 0.37px;
     color: #091e42;
-    width: 100%;
+    margin-top: 100px;
   }
 
   .detail {
@@ -561,6 +567,7 @@ body {
     line-height: 28px;
     color: #344563;
     padding: 0;
+    width: 70%;
   }
 
   .connect {
@@ -586,6 +593,8 @@ body {
     list-style: none;
     margin-left: 0.1rem;
     margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .break {
@@ -612,27 +621,47 @@ body {
   }
 
   .cards {
-    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 16px;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 46px;
+    height: 368px;
+    width: 738px;
+    border-radius: 24px;
+    margin: 60px 0;
+  }
+
+  /* .card:nth-child(even) {
+    flex-direction: row-reverse;
+    padding: 48px;
+  } */
+
+  .card-image img {
+    height: 336px;
+    width: 302px;
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+  .form-section {
+    background: #6070FF;
+    background-image: url(./images/Aboutme-Big-screen.png);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
-    place-items: center;
-    gap: 20px;
-    background-color: #e5e5e5;
+    align-items: center;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* header {
-    margin: 1.25rem 2.5rem;
-  } */
-
   .logo {
     margin-left: 155px;
-  }
-
-  .cards {
-    grid-template-columns: repeat(1, 1fr);
   }
 
   .card {
@@ -645,11 +674,6 @@ body {
     width: 1156px;
     border-radius: 24px;
     margin: 60px 0;
-  }
-
-  .card:nth-child(even) {
-    flex-direction: row-reverse;
-    padding: 48px;
   }
 
   .card-image img {
@@ -716,16 +740,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 36px;
-  }
-
-  .form-section {
-    background-image: url(./images/Aboutme-Big-screen.png);
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-color: #4949de;
-    justify-content: center;
-    align-items: center;
   }
 
   .form-section p {
