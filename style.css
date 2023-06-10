@@ -178,7 +178,7 @@ body {
   .SSimage {
     display: block;
   }
-  
+
   .form-line {
     height: 4px;
     background-color: #396df2;
@@ -318,6 +318,14 @@ body {
     padding: 8px;
   }
 
+  .form-section form input {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    height: 48px;
+    padding: 0 8px;
+  }
+  
   .form-section form input:hover {
     padding-left: 35px;
     transition: 1s ease;
@@ -468,20 +476,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-
-  .form-section form input {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    height: 48px;
-    padding: 0 8px;
-  }
+  } 
 
   ::placeholder {
     padding: 15px 16px;
   }
-  
+
   .liner {
     width: 134px;
     height: 5px;
@@ -502,7 +502,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
- 
+
 @media screen and (min-width: 768px) {  
   header {
     margin: 1.25rem 2.5rem;
