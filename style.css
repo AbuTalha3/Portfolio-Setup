@@ -606,13 +606,29 @@ body {
 
   .cards {
     display: grid;
-    padding: 142px;
-    grid-template-columns: repeat(1, 1fr);
+    padding: 16px;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     place-items: center;
     gap: 20px;
     background-color: #e5e5e5;
   }
+
+  
+ 
+
+}
+
+@media screen and (min-width: 1280px) {
+  
+  header {
+  margin: 1.25rem 2.5rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    /* padding: 142px; */
+    }
 
   .card {
     display: flex;
@@ -623,10 +639,12 @@ body {
     height: 496px;
     width: 1156px;
     border-radius: 24px;
+    margin: 60px 0;
   }
 
   .card:nth-child(even) {
     flex-direction: row-reverse;
+    padding: 48px;
   }
 
   .card-image img {
@@ -645,6 +663,10 @@ body {
   color: #091E42;
  }
 
+ .card-text h3 span {
+  display: inline;
+ }
+
  .BSimage {
   display: block;
  }
@@ -653,115 +675,64 @@ body {
   display: none;
  }
 
-   
+ .about-me {
+  display: flex;
+  flex-direction: row;
+  padding: 166px 182px 166px 143px;
+ }
+ .bigscreen {
+  width: 447px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+ }
 
+ .more-details {
+  width: 608px;
+  margin: -30px 0 0 60px;
+ }
 
+ .language ul li {
+  flex-direction: column;
+  display: flex;
+    align-items: center;
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin: 0 0 0 -24px;
+    padding: 0 24px;
+    gap: 16px;
+    justify-content: center;
+ }
+
+ .language ul {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+ }
+
+ .form-section {
+  background-image: url(./images/Aboutme-Big-screen.png);
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: #4949de;
+  justify-content: center;
+  align-items: center;  
+ }
+
+ .form-section p {
+  width: 25%;
+ }
+
+ .form-section form input,
+ .form-section form textarea {
+  border-radius: 0;
+ }
+
+ .cardio {  
+  align-self: center;
+ }
 
 }
-
-/*
-@media screen and (min-width: 768px) {
-   
-   
-  .connect {
-  
-  }
-  
-  .cards {
-  padding: 114px 0;
-  grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .card {
-  width: 327px;
-  height: 400px;
-  }
-  
-  .card-text {
-  align-items: flex-start;
-  }
-  
-  .card-text h3 {
-  font-size: 40px;
-  line-height: 52px;
-  }
-  
-  .card-text h3 span {
-  display: inline;
-  }
-  
-  .programes ul {
-  flex-direction: column;
-  }
-  
-  .expertise ul {
-  flex-direction: column;
-  gap: 20px;
-  }
-  
-  .about-me {
-  margin-top: 114px;
-  padding: 0 2.5rem;
-  gap: 2rem;
-  }
-  
-  .about-me h2 {
-  font-size: 64px;
-  line-height: 82px;
-  }
-  
-  .about-me p {
-  text-align: justify;
-  }
-  
-  .about-me ul {
-  margin-left: 0;
-  }
-  
-  .more-details ul {
-  grid-template-columns: repeat(2, 1fr);
-  margin: 36px 2.5rem;
-  }
-  
-  .more h3 {
-  font-size: 32px;
-  line-height: 40px;
-  }
-  
-  .language ul li {
-  width: auto;
-  margin-left: 0;
-  padding: 0.75rem 1rem;
-  }
-  
-  .language h4 {
-  font-size: 18px;
-  line-height: 24px;
-  }
-  
-  .form-section h3 {
-  font-size: 64px;
-  line-height: 82px;
-  padding: 80px;
-  }
-  
-  .form-section p {
-  font-size: 24px;
-  line-height: 32px;
-  margin-bottom: 52px;
-  }
-  
-  .form-section form input {
-  height: 64px;
-  }
-  
-  .form-section form textarea {
-  height: 200px;
-  }
-  
-  .liner {
-  width: 268px;
-  height: 8px;
-  margin: 2rem auto;
-  }
-  }
