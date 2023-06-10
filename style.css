@@ -30,7 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
-    background size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
