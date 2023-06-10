@@ -19,6 +19,10 @@ body {
     margin: 1.25rem;
   }
 
+  .heading-menu {
+    display: none;
+  }
+
   .homepage {
     background: url(./images/header-shapes\ mobile.png) no-repeat;
     height: 100vh;
@@ -27,6 +31,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .intro {
@@ -56,6 +62,11 @@ body {
     font-family: 'Poppins', sans-serif;
   }
 
+  .connect {
+    float: left;
+    margin-right: 45%;
+  }
+
   .connect h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -63,6 +74,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
+    text-align: left;
   }
 
   .cards {
@@ -159,6 +171,14 @@ body {
     color: #396df2;
   }
 
+  .BSimage {
+    display: none;
+  }
+
+  .SSimage {
+    display: block;
+  }
+
   .form-line {
     height: 4px;
     background-color: #396df2;
@@ -172,8 +192,7 @@ body {
     cursor: pointer;
     list-style: none;
     margin-left: -1rem;
-    justify-content: center;
-    align-items: center;
+    float: left;
   }
 
   .logo {
@@ -289,6 +308,37 @@ body {
     justify-content: center;
     width: 182px;
     height: 48px;
+  }
+
+  .form-section form textarea {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    height: 170px;
+    padding: 8px;
+  }
+
+  .form-section form input {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    height: 48px;
+    padding: 0 8px;
+  }
+
+  .form-section form input:hover {
+    padding-left: 35px;
+    transition: 1s ease;
+    background-color: #fcff4e;
+  }
+
+  .logo:hover {
+    padding-left: 35px;
+    padding-right: 15px;
+    transition: 1s ease;
+    background-color: #27fc40;
+    transform: scale(1.7);
+    color: #000;
   }
 
   .about-me button::-webkit-validation-bubble-heading {
@@ -428,24 +478,8 @@ body {
     gap: 20px;
   }
 
-  .form-section form input {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    height: 48px;
-    padding: 0 8px;
-  }
-
   ::placeholder {
     padding: 15px 16px;
-  }
-
-  .form-section form textarea {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    height: 170px;
-    padding: 8px;
   }
 
   .liner {
@@ -466,5 +500,258 @@ body {
 @media (min-width: 1058px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    margin: 0 0;
+    background: #fff;
+    position: fixed;
+    height: 72px;
+    width: 100%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo {
+    margin-left: 155px;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .homepage {
+    background: url(./images/Aboutme-Big-screen.png) no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 100px;
+    margin: 0;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    text-align: left;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    margin-top: 100px;
+  }
+
+  .detail {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    padding: 0;
+    width: 70%;
+  }
+
+  .connect {
+    padding: 0;
+  }
+
+  .connect h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .logos ul {
+    display: flex;
+    gap: 20px;
+    color: #505f79;
+    list-style: none;
+    margin-left: 0.1rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .heading-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #634634;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 155px;
+  }
+
+  .menubars {
+    display: none;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 46px;
+    height: 368px;
+    width: 738px;
+    border-radius: 24px;
+    margin: 60px 0;
+  }
+
+  /* .card:nth-child(even) {
+    flex-direction: row-reverse;
+    padding: 48px;
+  } */
+
+  .card-image img {
+    height: 336px;
+    width: 302px;
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+  .form-section {
+    background: #6070ff;
+    background-image: url(./images/Aboutme-Big-screen.png);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logo {
+    margin-left: 155px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 46px;
+    height: 496px;
+    width: 1156px;
+    border-radius: 24px;
+    margin: 60px 0;
+  }
+
+  .card-image img {
+    height: 448px;
+    width: 544px;
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+  .card-text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .card-text h3 span {
+    display: inline;
+  }
+
+  .BSimage {
+    display: block;
+  }
+
+  .SSimage {
+    display: none;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    padding: 166px 182px 166px 143px;
+  }
+
+  .bigscreen {
+    width: 447px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .more-details {
+    width: 608px;
+    margin: -30px 0 0 60px;
+  }
+
+  .language ul li {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin: 0 0 0 -24px;
+    padding: 0 24px;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .language ul {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+  }
+
+  .form-section p {
+    width: 25%;
+  }
+
+  .form-section form input,
+  .form-section form textarea {
+    border-radius: 0;
+  }
+
+  .cardio {
+    align-self: center;
   }
 }
