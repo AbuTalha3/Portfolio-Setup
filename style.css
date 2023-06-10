@@ -586,9 +586,9 @@ body {
     color: #505f79;
     list-style: none;
     margin-left: -1rem;
-    float: left; 
+    float: left;
   }
-  
+
   .homepage {
     background: url(./images/Aboutme-Big-screen.png) no-repeat;
     height: 100vh;
@@ -650,7 +650,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52px; 
+    line-height: 52px;
     color: #091e42;
   }
 
