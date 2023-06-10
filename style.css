@@ -586,9 +586,9 @@ body {
     color: #505f79;
     list-style: none;
     margin-left: -1rem;
-    float: left;  
+    float: left; 
   }
-
+  
   .homepage {
     background: url(./images/Aboutme-Big-screen.png) no-repeat;
     height: 100vh;
@@ -650,8 +650,8 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52px;  
-    color: #091E42;
+    line-height: 52px; 
+    color: #091e42;
   }
 
   .card-text h3 span {
@@ -671,6 +671,7 @@ body {
     flex-direction: row;
     padding: 166px 182px 166px 143px;
   }
+
   .bigscreen {
     width: 447px;
     display: flex;
@@ -710,7 +711,7 @@ body {
     background-repeat: no-repeat;
     background-color: #4949de;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
   }
 
   .form-section p {
@@ -722,7 +723,7 @@ body {
     border-radius: 0;
   }
 
-  .cardio { 
+  .cardio {
     align-self: center;
   }
 }
