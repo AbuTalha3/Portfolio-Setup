@@ -517,6 +517,12 @@ body {
     color: #344563;
   }
 
+  .intro {
+    width: 70%;
+    display: flex;
+    float: left;
+  }
+
   .intro h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -527,6 +533,7 @@ body {
     text-align: left;
     letter-spacing: 0.37px;
     color: #091e42;
+    width: 100%;
   }
 
   .break {
@@ -545,6 +552,7 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    margin-right: 155px;
   }
 
   .menubars {
@@ -559,6 +567,10 @@ body {
     line-height: 28px;
     color: #344563;
     padding: 0 80px;
+  }
+
+  .detail p {
+    padding-left: 99px;
   }
 
   .connect {
@@ -615,6 +627,15 @@ body {
 @media screen and (min-width: 1280px) {
   header {
     margin: 1.25rem 2.5rem;
+  }
+
+  .logo {
+    margin-left: 155px;
+  }
+
+  .intro h1 {    
+    display: flex;
+    text-align: left;
   }
 
   .cards {
