@@ -174,7 +174,7 @@ body {
   .BSimage {
     display: none;
   }
-  
+
   .SSimage {
     display: block;
   }
@@ -325,7 +325,7 @@ body {
     height: 48px;
     padding: 0 8px;
   }
-  
+
   .form-section form input:hover {
     padding-left: 35px;
     transition: 1s ease;
@@ -476,8 +476,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  } 
-
+  }
+  
   ::placeholder {
     padding: 15px 16px;
   }
@@ -503,7 +503,8 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {  
+@media screen and (min-width: 768px) {
+  
   header {
     margin: 1.25rem 2.5rem;
   }
@@ -518,7 +519,7 @@ body {
   }
 
   .intro h1 {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -546,17 +547,17 @@ body {
     font-size: 15px;
     line-height: 20px;
   }
-  
+
   .menubars {
     display: none;
   }
-  
+
   .detail {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;    
+    line-height: 28px;
     color: #344563;
     padding: 0 80px;
   }
@@ -566,7 +567,8 @@ body {
     margin-right: 58%;
     padding: 0 80px;
   }
-  .conect h3{
+
+  .conect h3 {
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -575,20 +577,20 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;  
+    line-height: 24px;
     color: #ff9b7f;
- }
+  }
 
- .logos ul {
+  .logos ul {
     display: flex;
     gap: 20px;
     color: #505f79;
     list-style: none;
     margin-left: -1rem;
-    float: left;    
-} 
-
-.homepage {
+    float: left;   
+  }
+  
+  .homepage {
     background: url(./images/Aboutme-Big-screen.png) no-repeat;
     height: 100vh;
     display: flex;
@@ -609,14 +611,10 @@ body {
     gap: 20px;
     background-color: #e5e5e5;
   }
-
-  
- 
-
 }
 
 @media screen and (min-width: 1280px) {
-  
+
   header {
   margin: 1.25rem 2.5rem;
   }
@@ -715,7 +713,7 @@ body {
   background-repeat: no-repeat;
   background-color: #4949de;
   justify-content: center;
-  align-items: center;  
+  align-items: center; 
  }
 
  .form-section p {
@@ -727,8 +725,7 @@ body {
   border-radius: 0;
  }
 
- .cardio {  
+ .cardio { 
   align-self: center;
  }
-
 }
