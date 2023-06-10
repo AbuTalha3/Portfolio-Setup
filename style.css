@@ -521,7 +521,7 @@ body {
     color: #344563;
   }
 
-   .homepage {
+  .homepage {
     background: url(./images/Aboutme-Big-screen.png) no-repeat;
     height: 100vh;
     display: flex;
@@ -586,8 +586,8 @@ body {
     list-style: none;
     margin-left: 0.1rem;
     margin-top: 0.5rem;
-  } 
-
+  }
+  
   .break {
     display: none;
   }
@@ -609,7 +609,7 @@ body {
 
   .menubars {
     display: none;
-  } 
+  }
 
   .cards {
     display: grid;
