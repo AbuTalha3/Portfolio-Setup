@@ -508,6 +508,10 @@ body {
     margin: 1.25rem 2.5rem;
   }
 
+  .logo {
+    margin-left: 155px;
+  }
+
   p {
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -517,10 +521,23 @@ body {
     color: #344563;
   }
 
-  .intro {
-    width: 70%;
+   .homepage {
+    background: url(./images/Aboutme-Big-screen.png) no-repeat;
+    height: 100vh;
     display: flex;
-    float: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 359px 260px;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .intro h1 {
@@ -535,6 +552,41 @@ body {
     color: #091e42;
     width: 100%;
   }
+
+  .detail {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    padding: 0;
+  }
+
+  .connect {
+    padding: 0;
+  }
+
+  .connect h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .logos ul {
+    display: flex;
+    gap: 20px;
+    color: #505f79;
+    list-style: none;
+    margin-left: 0.1rem;
+    margin-top: 0.5rem;
+  } 
 
   .break {
     display: none;
@@ -557,61 +609,7 @@ body {
 
   .menubars {
     display: none;
-  }
-
-  .detail {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #344563;
-    padding: 0 80px;
-  }
-
-  .detail p {
-    padding-left: 99px;
-  }
-
-  .connect {
-    float: left;
-    margin-right: 58%;
-    padding: 0 80px;
-  }
-
-  .conect h3 {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: left;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ff9b7f;
-  }
-
-  .logos ul {
-    display: flex;
-    gap: 20px;
-    color: #505f79;
-    list-style: none;
-    margin-left: -1rem;
-    float: left;
-  }
-
-  .homepage {
-    background: url(./images/Aboutme-Big-screen.png) no-repeat;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+  } 
 
   .cards {
     display: grid;
@@ -625,17 +623,12 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  header {
+  /* header {
     margin: 1.25rem 2.5rem;
-  }
+  } */
 
   .logo {
     margin-left: 155px;
-  }
-
-  .intro h1 {
-    display: flex;
-    text-align: left;
   }
 
   .cards {
