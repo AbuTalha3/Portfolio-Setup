@@ -115,7 +115,7 @@ This is the mobile size web page project, it tests more on Git, GitHub, GitHub W
 <!-- > Add a link to your deployed project.
 
 - [Live Demo Link](https://google.com) -->
-A live link will be added as soon as it is developed fully.
+https://abutalha3.github.io/Portfolio-Setup/
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
