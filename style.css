@@ -301,7 +301,7 @@ body {
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396df2;
+    color: #6070ff;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -336,9 +336,7 @@ body {
     padding-left: 35px;
     padding-right: 15px;
     transition: 1s ease;
-    background-color: #27fc40;
-    transform: scale(1.7);
-    color: #000;
+    transform: scale(1.7);    
   }
 
   .about-me button::-webkit-validation-bubble-heading {
@@ -350,7 +348,7 @@ body {
   .cardio {
     background-color: #6070ff;
     color: #fff;
-    box-shadow: 0 2px 10px #6070ff;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   }
 
   .about-me button:active,
@@ -363,7 +361,7 @@ body {
   .cardio {
     background-color: #6070ff;
     color: #fff;
-    box-shadow: 0 2px 10px #6070ff;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   }
 
   .card-text button:active {
