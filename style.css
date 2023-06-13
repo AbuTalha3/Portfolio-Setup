@@ -334,9 +334,7 @@ body {
 
   .logo:hover {
     padding-left: 35px;
-    padding-right: 15px;
-    transition: 1s ease;
-    transform: scale(1.7);    
+    padding-right: 15px;    
   }
 
   .about-me button::-webkit-validation-bubble-heading {
