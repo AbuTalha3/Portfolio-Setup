@@ -159,8 +159,8 @@ body {
   .card-text button {
     padding: 16px;
     gap: 12px;
-    background: #fff;
-    border: 1px solid #396df2;
+    background: #efeaea;
+    border: 1px solid #4371e7;
     border-radius: 16px;
     font-style: normal;
     font-weight: 500;
@@ -168,7 +168,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: #396df2;
+    color: #2f5fd8;
   }
 
   .BSimage {
@@ -196,11 +196,12 @@ body {
   }
 
   .logo {
-    color: #6070ff;
+    color: #3343ce;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    animation: rotateonce 1s ease-out;
   }
 
   .menubars {
@@ -292,8 +293,8 @@ body {
   .cardio {
     padding: 12px;
     gap: 10px;
-    background: #fff;
-    border: 1px solid #7f8cff;
+    background: #d3c7c7;
+    border: 1px solid #3644c1;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -301,7 +302,7 @@ body {
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396df2;
+    color: #2434bd;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -335,50 +336,46 @@ body {
   .logo:hover {
     padding-left: 35px;
     padding-right: 15px;
-    transition: 1s ease;
-    background-color: #27fc40;
-    transform: scale(1.7);
-    color: #000;
   }
 
   .about-me button::-webkit-validation-bubble-heading {
-    background-color: #6070ff;
-    color: #5e6c84;
+    background-color: #3d4cce;
+    color: #c3c7cf;
   }
 
   .about-me button:hover,
   .cardio {
-    background-color: #6070ff;
-    color: #fff;
-    box-shadow: 0 2px 10px #6070ff;
+    background-color: #3b49c9;
+    color: #e0dcdc;
+    box-shadow: 0 8px 16px rgba(40, 54, 182, 0.24);
   }
 
   .about-me button:active,
   .cardio {
     background-color: #2230d2;
-    color: #fff;
+    color: #e7d7d7;
   }
 
   .card-text button:hover,
   .cardio {
-    background-color: #6070ff;
-    color: #fff;
-    box-shadow: 0 2px 10px #6070ff;
+    background-color: #4655e0;
+    color: #e8e2e2;
+    box-shadow: 0 8px 16px rgba(44, 62, 222, 0.24);
   }
 
   .card-text button:active {
-    background-color: #2230d2;
-    color: #fff;
+    background-color: #4451e8;
+    color: #c1b4b4;
   }
 
   .cardio {
     background-color: #fff;
-    color: #6070ff;
+    color: #3d4cd3;
   }
 
   .card-text button:disabled {
     background-color: #c1c7d0;
-    color: #5e6c84;
+    color: #25529f;
   }
 
   .more-details ul {
@@ -589,7 +586,7 @@ body {
   .logos ul {
     display: flex;
     gap: 20px;
-    color: #505f79;
+    color: #2a549c;
     list-style: none;
     margin-left: 0.1rem;
     margin-top: 0.5rem;
