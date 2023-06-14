@@ -335,7 +335,7 @@ body {
 
   .logo:hover {
     padding-left: 35px;
-    padding-right: 15px;    
+    padding-right: 15px;
   }
 
   .about-me button::-webkit-validation-bubble-heading {
@@ -347,7 +347,7 @@ body {
   .cardio {
     background-color: #3b49c9;
     color: #e0dcdc;
-    box-shadow: 0px 8px 16px rgba(40, 54, 182, 0.24);
+    box-shadow: 0 8px 16px rgba(40, 54, 182, 0.24);
   }
 
   .about-me button:active,
@@ -360,7 +360,7 @@ body {
   .cardio {
     background-color: #4655e0;
     color: #e8e2e2;
-    box-shadow: 0px 8px 16px rgba(44, 62, 222, 0.24);
+    box-shadow: 0 8px 16px rgba(44, 62, 222, 0.24);
   }
 
   .card-text button:active {
