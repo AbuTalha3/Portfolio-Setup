@@ -293,8 +293,8 @@ body {
   .cardio {
     padding: 12px;
     gap: 10px;
-    background: #eee7e7;
-    border: 1px solid #4a58d7;
+    background: #d3c7c7;
+    border: 1px solid #3644c1;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -302,7 +302,7 @@ body {
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #2e3cb7;
+    color: #2434bd;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -339,15 +339,15 @@ body {
   }
 
   .about-me button::-webkit-validation-bubble-heading {
-    background-color: #4252dc;
-    color: #8b97ac;
+    background-color: #3d4cce;
+    color: #c3c7cf;
   }
 
   .about-me button:hover,
   .cardio {
-    background-color: #4555dd;
-    color: #e8dede;
-    box-shadow: 0px 8px 16px rgba(48, 63, 203, 0.24);
+    background-color: #3b49c9;
+    color: #e0dcdc;
+    box-shadow: 0px 8px 16px rgba(40, 54, 182, 0.24);
   }
 
   .about-me button:active,
