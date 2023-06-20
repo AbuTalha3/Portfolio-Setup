@@ -19,3 +19,49 @@ const contentMenuFunc = () => {
 hamburger.addEventListener("click", showMenu);
 contentMenu.addEventListener("click", contentMenuFunc);
 closeicons.addEventListener("click", hideMenu);
+
+const theList =[
+  { id:1,
+    name:"Tonic",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    image:"images/card1.png",
+    portfolioLive:"https://abutalha3.github.io/Portfolio-Setup/",
+    softLinkToRepo: "https://github.com/AbuTalha3/Portfolio-Setup",
+    live:"see live",
+    source: "See-source",
+    IconSource: '<i class="fa-brands fa-github"></i>',
+    IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
+  }
+]
+
+document.getElementById('cardone') = theList.map((item)=>{
+  return`
+  <div class="card-image">
+            <img class="SSimage" src="${Item.image}"
+              alt="A school dropout detail who became a web designer at facebook">
+            <img class="BSimage" src="./images/TonicCard1gibscreen.png"
+              alt="An image with a tenis ball, a swiming pool ladder and a decorative plant">
+          </div>
+          <div class="card-text">
+            <h3>Tonic</h3>
+            <div class="expertise">
+              <ul>
+                <li>CANOPY</li>
+                <li><img src="./images/Counter.png" alt="A dot"></li>
+                <li>Back End Dev</li>
+                <li><img src="./images/Counter.png" alt="A dot"></li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <div class="programes">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+            <button>See project</button>
+          </div>
+  `
+})
