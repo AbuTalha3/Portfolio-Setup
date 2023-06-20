@@ -19,7 +19,6 @@ body {
     margin: 1.25rem;
   }
 
-
   .desktop {
     display: none;
   }
@@ -29,7 +28,6 @@ body {
     transition: all 5s;
     transform: translateY(-200%);
   } */
-
 
   .homepage {
     background: url(./images/header-shapes\ mobile.png) no-repeat;
@@ -67,7 +65,6 @@ body {
     padding-right: 400px;
     font-family: 'Poppin', sans-serif;
     padding-left: 25px;
-    
   }
 
   .mobile li a {
@@ -671,37 +668,6 @@ body {
     color: #253858;
     text-decoration: none;
   }
-
-  /* header {
-    display: flex;
-    justify-content: space-between;
-  } */
-
-  /* .heading-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    gap: 32px;
-    font-family: 'Poppins', sans-serif;
-    color: #634634;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    margin-right: 155px;
-    transition: all 5s;
-    transform: translateY(-200%);
-  } */
-
-
-
-  /* .close {
-    position: absolute;
-    margin-right: 3rem;
-    transition: all 5s;
-    transform: translateY(-20rem);
-  } */
 
   .menubars {
     display: none;
