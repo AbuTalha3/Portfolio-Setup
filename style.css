@@ -52,6 +52,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    padding-top: 100px;
   }
 
   .content_menu {
@@ -64,6 +65,9 @@ body {
   .mobile li {
     margin: 20px 0;
     padding-right: 400px;
+    font-family: 'Poppin', sans-serif;
+    padding-left: 25px;
+    
   }
 
   .mobile li a {
@@ -79,10 +83,11 @@ body {
 
   .close {
     position: absolute;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding-right: 30px;
+    top: 5%;
     right: 0;
     color: white;
+    font-size: 1.7rem;
   }
 
   .intro {
@@ -562,6 +567,11 @@ body {
 
   .logo {
     margin-left: 155px;
+  }
+
+  .desktop {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
   }
 
   p {
