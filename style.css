@@ -37,8 +37,13 @@ body {
     background-repeat: no-repeat;
   }
 
+  .menu-icon {
+    position: relative;
+  }
+
   .close {
-    position: absolute;
+    /* position: absolute; */
+    right: 0;
     margin-right: 3rem;
     transition: all 5s;
     transform: translateY(-20rem);
