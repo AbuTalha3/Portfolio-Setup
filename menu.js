@@ -1,18 +1,21 @@
 
-const menu = document.querySelector(".heading-menu");
+const menu = document.querySelector(".mobile");
 const closeicons = document.querySelector(".close");
 const hamburger = document.querySelector(".menubars");
+const contentMenu = document.querySelector('.content_menu');
 
 const showMenu = () => {
-  hamburger.style.display = "block";
-  closeicons.style.transform = "translateY(0)";
-  menu.style.transform = "translateY(0)";
+  menu.classList.toggle('active')
 };
 
 const hideMenu = () => {
-  closeicons.style.transform = "translateY(-20rem)";
-  menu.style.transform = "translateY(-200%)";
+  menu.classList.toggle('active')
+};
+
+const contentMenuFunc = () => {
+  menu.classList.toggle('active')
 };
 
 hamburger.addEventListener("click", showMenu);
+contentMenu.addEventListener("click", contentMenuFunc);
 closeicons.addEventListener("click", hideMenu);
