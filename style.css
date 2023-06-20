@@ -20,7 +20,9 @@ body {
   }
 
   .heading-menu {
-    display: none;
+    display: block;
+    transition: all 5s;
+    transform: translateY(-200%);
   }
 
   .homepage {
@@ -33,6 +35,13 @@ body {
     gap: 12px;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .close {
+    position: absolute;
+    margin-right: 3rem;
+    transition: all 5s;
+    transform: translateY(-20rem);
   }
 
   .intro {
@@ -611,6 +620,16 @@ body {
     font-size: 15px;
     line-height: 20px;
     margin-right: 155px;
+    transition: all 5s;
+    transform: translateY(-200%);
+  }
+
+
+  .close {
+    position: absolute;
+    margin-right: 3rem;
+    transition: all 5s;
+    transform: translateY(-20rem);
   }
 
   .menubars {
