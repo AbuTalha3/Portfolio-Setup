@@ -37,7 +37,7 @@ const theList =[
 document.getElementById('cardone') = theList.map((item)=>{
   return`
   <div class="card-image">
-            <img class="SSimage" src="${Item.image}"
+            <img class="SSimage" src="${item.image}"
               alt="A school dropout detail who became a web designer at facebook">
             <img class="BSimage" src="./images/TonicCard1gibscreen.png"
               alt="An image with a tenis ball, a swiming pool ladder and a decorative plant">
