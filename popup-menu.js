@@ -1,72 +1,75 @@
-const works =[
-  { id:0,
-    name:"Tonic",
-    company: "Canopy",
-		role: "Back End Dev",
-		year: 2015,
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...",
-    tags: ["HTML", "CSS", "JavaScript"],
-    image:"images/card1.png",
-    image_alt: "Tonic project image",
-    portfolioLive:"https://abutalha3.github.io/Portfolio-Setup/",
-    softLinkToRepo: "https://github.com/AbuTalha3/Portfolio-Setup",
-    live:"See live",
-    source: "See-source",
+const works = [
+  {
+    id: 0,
+    name: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    image: 'images/card1.png',
+    image_alt: 'Tonic project image',
+    portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
+    softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
+    live: 'See live',
+    source: 'See-source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
   },
-  { id:1,
-    name:"Multi-Post Stories",
-    company: "Canopy",
-		role: "Back End Dev",
-		year: 2015,
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...",
-    tags: ["HTML", "CSS", "JavaScript"],
-    image:"images/card2.png",
-    image_alt: "Multi-Post project image",
-    portfolioLive:"https://abutalha3.github.io/Portfolio-Setup/",
-    softLinkToRepo: "https://github.com/AbuTalha3/Portfolio-Setup",
-    live:"See live",
-    source: "See-source",
+  {
+    id: 1,
+    name: 'Multi-Post Stories',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    image: 'images/card2.png',
+    image_alt: 'Multi-Post project image',
+    portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
+    softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
+    live: 'See live',
+    source: 'See-source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
   },
-  { id:2,
-    name:"Tonic",
-    company: "Canopy",
-		role: "Back End Dev",
-		year: 2015,
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...",
-    tags: ["HTML", "CSS", "JavaScript"],
-    image:"./images/card3img.png",
-    image_alt: "Tonic project image",
-    portfolioLive:"https://abutalha3.github.io/Portfolio-Setup/",
-    softLinkToRepo: "https://github.com/AbuTalha3/Portfolio-Setup",
-    live:"See live",
-    source: "See-source",
+  {
+    id: 2,
+    name: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    image: './images/card3img.png',
+    image_alt: 'Tonic project image',
+    portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
+    softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
+    live: 'See live',
+    source: 'See-source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
   },
-  { id:3,
-    name:"Multi-Post Stories",
-    company: "Canopy",
-		role: "Back End Dev",
-		year: 2015,
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...",
-    tags: ["HTML", "CSS", "JavaScript"],
-    image:"./images/card4img.png",    
-		image_alt: "Multi-Post project image",
-    portfolioLive:"https://abutalha3.github.io/Portfolio-Setup/",
-    softLinkToRepo: "https://github.com/AbuTalha3/Portfolio-Setup",
-    live:"See live",
-    source: "See-source",
+  {
+    id: 3,
+    name: 'Multi-Post Stories',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Lorem ispum...',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    image: './images/card4img.png',
+    image_alt: 'Multi-Post project image',
+    portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
+    softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
+    live: 'See live',
+    source: 'See-source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
-  }
-]
+  },
+];
 
-document.getElementById('portfolio').innerHTML = works.map((item)=>{
-  return`
+document.getElementById('portfolio').innerHTML = works.map((item) => `
   <div id="cardone" class="card">
   <div class="card-image">
             <img class="SSimage" src="${item.image}"
@@ -128,19 +131,16 @@ document.getElementById('portfolio').innerHTML = works.map((item)=>{
             </div> 
           
                    
-  `
-})
+  `);
 
 function display(itemId) {
   const container = document.getElementById(`item-${itemId}`);
-   container.style.display = 'block';}
- function nodisplay(itemId) {
-   const container = document.getElementById(`item-${itemId}`);
-   container.style.display = 'none';
- }
-  
- 
- 
+  container.style.display = 'block';
+}
+function nodisplay(itemId) {
+  const container = document.getElementById(`item-${itemId}`);
+  container.style.display = 'none';
+}
 
 hamburger.addEventListener('click', showMenu);
 contentMenu.addEventListener('click', contentMenuFunc);
