@@ -73,6 +73,7 @@ This is the mobile size web page project, it tests more on Git, GitHub, GitHub W
 
 - HTML
 - CSS
+- Javascript
 - Linters
 
 <!-- <details>
