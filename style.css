@@ -60,6 +60,22 @@ body {
     color: white;
   }
 
+  .m-button a {
+    padding: 16px;
+    margin-left: 5px;
+    background: #efeaea !important;
+    border: 1px solid #4371e7;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #2f5fd8;
+    text-align: center;
+    text-decoration: none;
+  }
+
   .mobile li {
     margin: 20px 0;
     padding-right: 400px;
@@ -223,46 +239,23 @@ body {
     color: #2f5fd8;
   }
 
-  .m-button{
+  .m-button {
     margin: 30px 0;
   }
-  .modal-p{
+
+  .modal-p {
     text-align: start;
-    font-size:20px;
+    font-size: 20px;
     color: #777;
   }
-.expertise{
-  margin:20px 0;
-}
-.programes{
-  margin: 20px 0;
-}
-  .m-button a {
-    padding: 16px;
-    margin-left: 5px;
-    background: #efeaea !important;
-    border: 1px solid #4371e7;
-    border-radius: 16px;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    color: #2f5fd8;
-    text-align: center;
-    text-decoration: none;
+
+  .expertise {
+    margin: 20px 0;
   }
 
-  /* .m-button button {
-    color: #2f5fd8;
-    font-size: 0.938rem;
-    text-align: center;
-    padding: 10px 10px;
-    margin-top: -15px;
-    margin-left: 5px;
-    border: 1px solid #2f5fd8;
-    border-radius: 8px;
-  } */
+  .programes {
+    margin: 20px 0;
+  }
 
   .BSimage {
     display: none;
@@ -610,7 +603,7 @@ body {
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   .list-inline-itemp {
     color: #c1c7d0;
     font-weight: 500;
@@ -631,15 +624,15 @@ body {
   }
 }
 
-                @media screen and (min-width: 768px) {
-                  header {
-                    margin: 0 0;
-                    background: #fff;
-                    position: fixed;
-                    height: 72px;
-                    width: 100%;
-                    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-                  }
+@media screen and (min-width: 768px) {
+  header {
+    margin: 0 0;
+    background: #fff;
+    position: fixed;
+    height: 72px;
+    width: 100%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  }
 
   .logo {
     margin-left: 155px;
@@ -800,14 +793,12 @@ body {
   /* #cardone {
     display: flex;
   } */
-
-  
 }
 
-              @media screen and (min-width: 1280px) {
-                .logo {
-                  margin-left: 155px;
-                }
+@media screen and (min-width: 1280px) {
+  .logo {
+    margin-left: 155px;
+  }
 
   .card {
     display: flex;
