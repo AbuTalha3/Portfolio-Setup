@@ -157,7 +157,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 6px;
   }
 
   .card-text h3 {
@@ -208,7 +208,7 @@ body {
     padding: 4px 12px;
   }
 
-  .card-text button {
+  .card-text .card-button {
     padding: 16px;
     gap: 12px;
     background: #efeaea;
@@ -222,6 +222,47 @@ body {
     cursor: pointer;
     color: #2f5fd8;
   }
+
+  .m-button{
+    margin: 30px 0;
+  }
+  .modal-p{
+    text-align: start;
+    font-size:20px;
+    color: #777;
+  }
+.expertise{
+  margin:20px 0;
+}
+.programes{
+  margin: 20px 0;
+}
+  .m-button a {
+    padding: 16px;
+    margin-left: 5px;
+    background: #efeaea !important;
+    border: 1px solid #4371e7;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #2f5fd8;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* .m-button button {
+    color: #2f5fd8;
+    font-size: 0.938rem;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: -15px;
+    margin-left: 5px;
+    border: 1px solid #2f5fd8;
+    border-radius: 8px;
+  } */
 
   .BSimage {
     display: none;
@@ -538,6 +579,44 @@ body {
     border-radius: 10px;
     margin: 15px 110px;
   }
+
+  .cardtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+  }
+
+  .Popupimage {
+    width: 95%;
+    height: 220px;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 16px;
+    width: 88%;
+  }
+
+  .closecross {
+    margin-right: -95%;
+    z-index: 2;
+  }
+
+  .list-inline-item {
+    color: #7a869a;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .list-inline-itemp {
+    color: #c1c7d0;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
 }
 
 @media (min-width: 768px) {
@@ -552,15 +631,15 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
-  header {
-    margin: 0 0;
-    background: #fff;
-    position: fixed;
-    height: 72px;
-    width: 100%;
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-  }
+                @media screen and (min-width: 768px) {
+                  header {
+                    margin: 0 0;
+                    background: #fff;
+                    position: fixed;
+                    height: 72px;
+                    width: 100%;
+                    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+                  }
 
   .logo {
     margin-left: 155px;
@@ -710,12 +789,25 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .list-inline-item {
+    color: #7a869a;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* #cardone {
+    display: flex;
+  } */
+
+  
 }
 
-@media screen and (min-width: 1280px) {
-  .logo {
-    margin-left: 155px;
-  }
+              @media screen and (min-width: 1280px) {
+                .logo {
+                  margin-left: 155px;
+                }
 
   .card {
     display: flex;
