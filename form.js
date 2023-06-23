@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const email = document.getElementById('email');
 function message(errorMessage) {
   document.getElementById('message2').innerHTML = errorMessage;
