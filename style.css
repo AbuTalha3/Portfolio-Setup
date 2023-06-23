@@ -199,7 +199,7 @@ body {
   .programes ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     gap: 10px;
   }
 
@@ -297,6 +297,23 @@ body {
     line-height: 44px;
     color: #172b4d;
     font-family: 'Poppins', sans-serif;
+  }
+
+  .popicon hr {
+    color: #ebecf0;
+    width: 95%;
+    height: 2px;
+    margin: 12px 0;
+  }
+
+  .m-button {
+    display: flex;
+    gap: 12px;
+    margin-left: 9px;
+  }
+
+  .m-button a button {
+    padding: 12px 22px;
   }
 
   .logo-icons ul {
@@ -561,11 +578,14 @@ body {
     margin: 15px 110px;
   }
 
-  .cardtitle {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
+  .cardtitle {    
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
   }
 
   .Popupimage {
@@ -604,7 +624,7 @@ body {
   }
 
   .list {
-    margin-left: 2em;
+    /* margin-left: 2em; */
   }
 
   .popText {
@@ -618,6 +638,9 @@ body {
 
   .popicon {
     width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
   }
 
   .list-inline-item {
