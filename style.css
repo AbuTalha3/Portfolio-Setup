@@ -11,6 +11,11 @@ body {
   list-style: none;
 }
 
+#message2 {
+  display: none;
+  color: red;
+}
+
 .m-button a button {
   margin-top: -5%;
   background: transparent;
