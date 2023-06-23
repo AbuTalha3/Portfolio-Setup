@@ -12,7 +12,7 @@ const works = [
     portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
     softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
     live: 'See live',
-    source: 'See-source',
+    source: 'See source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
   },
@@ -29,7 +29,7 @@ const works = [
     portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
     softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
     live: 'See live',
-    source: 'See-source',
+    source: 'See source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
   },
@@ -46,7 +46,7 @@ const works = [
     portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
     softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
     live: 'See live',
-    source: 'See-source',
+    source: 'See source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
   },
@@ -63,7 +63,7 @@ const works = [
     portfolioLive: 'https://abutalha3.github.io/Portfolio-Setup/',
     softLinkToRepo: 'https://github.com/AbuTalha3/Portfolio-Setup',
     live: 'See live',
-    source: 'See-source',
+    source: 'See source',
     IconSource: '<i class="fa-brands fa-github"></i>',
     IconLive: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
   },
@@ -100,6 +100,7 @@ document.getElementById('portfolio').innerHTML = works.map((item) => `
           </div>
           </div>
           <div class ="container" id="item-${item.id}">
+          <div class="content">
           <i class="fas fa-times closecross" onclick = "nodisplay(${item.id})"></i>
           <h3 class ="cardtitle">${item.name}</h3>
           <div class ="expertise">
@@ -111,13 +112,16 @@ document.getElementById('portfolio').innerHTML = works.map((item) => `
                 <li>2015</li>
               </ul>
             </div>
+
             <div>
             <img class="Popupimage" src="${item.image}">
             </div>
-            <div>
+            <div class="flex-content">
+            <div class="popText">
             <p class="modal-p">${item.description}</p>
             </div>
-            <div class="programes">
+            <div class="popicon">
+            <div class="programes list">
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -125,10 +129,13 @@ document.getElementById('portfolio').innerHTML = works.map((item) => `
               </ul>
             </div>
             <div class="m-button">
-            <a href="${item.portfolioLive}">${item.live} ${item.IconLive} </a>
-            <a href="${item.softLinkToRepo}">${item.source} ${item.IconSource} </a>           
+            <a href="${item.portfolioLive}"><button type="type" id="left">${item.live} ${item.IconLive}</button></a>
+            <a href="${item.softLinkToRepo}"><button type="type">${item.source} ${item.IconSource}</button></a>           
+            </div>
+            </div>
             </div>
             </div> 
+            </div>
           
                    
   `);
