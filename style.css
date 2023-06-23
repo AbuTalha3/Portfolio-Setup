@@ -312,6 +312,28 @@ body {
     margin-left: 9px;
   }
 
+  .about-me button,
+  .cardio {
+    padding: 12px;
+    gap: 10px;
+    background: #d3c7c7;
+    border: 1px solid #3644c1;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #2434bd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 48px;
+  }
+
   .m-button a button {
     padding: 12px 22px;
   }
@@ -378,28 +400,6 @@ body {
     align-items: center;
     gap: 24px;
     margin-left: 12px;
-  }
-
-  .about-me button,
-  .cardio {
-    padding: 12px;
-    gap: 10px;
-    background: #d3c7c7;
-    border: 1px solid #3644c1;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #2434bd;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 182px;
-    height: 48px;
   }
 
   .form-section form textarea {
@@ -578,7 +578,7 @@ body {
     margin: 15px 110px;
   }
 
-  .cardtitle {    
+  .cardtitle {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
