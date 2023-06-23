@@ -14,7 +14,7 @@
 
 const form = document.getElementById('error2');
 const email = document.getElementById('email').value;
-const correctEmail = email.toLowerCase();
+const correctEmail = document.getElementById('email').value.toLowerCase();
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
