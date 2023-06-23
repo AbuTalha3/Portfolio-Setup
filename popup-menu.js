@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const works = [
   {
     id: 0,
@@ -141,7 +142,3 @@ function nodisplay(itemId) {
   const container = document.getElementById(`item-${itemId}`);
   container.style.display = 'none';
 }
-
-hamburger.addEventListener('click', showMenu);
-contentMenu.addEventListener('click', contentMenuFunc);
-closeicons.addEventListener('click', hideMenu);

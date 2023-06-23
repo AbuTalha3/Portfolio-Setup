@@ -18,4 +18,3 @@ const contentMenuFunc = () => {
 hamburger.addEventListener('click', showMenu);
 contentMenu.addEventListener('click', contentMenuFunc);
 closeicons.addEventListener('click', hideMenu);
-
