@@ -11,7 +11,7 @@ body {
   list-style: none;
 }
 
-.m-button a button{
+.m-button a button {
   margin-top: -5%;
   background: transparent;
   padding: 0.5rem 1rem;
@@ -67,7 +67,6 @@ body {
     justify-content: flex-start;
     color: white;
   }
-
 
   .mobile li {
     margin: 20px 0;
@@ -231,7 +230,6 @@ body {
     cursor: pointer;
     color: #2f5fd8;
   }
-
 
   .modal-p {
     text-align: start;
@@ -572,7 +570,7 @@ body {
 
   .Popupimage {
     width: 100%;
-    height: 500px;
+    height: auto;
     transform: scale(1);
     transform-origin: center center;
   }
@@ -591,34 +589,34 @@ body {
     display: none;
   }
 
-  .content{
+  .content {
     width: 90%;
     margin: 5px auto;
     background-color: #fff;
     border-radius: 20px;
     padding: 24px;
   }
-  .Popupimage{
-    width: 100%;
-    height: auto;
-  }
 
-  .flex-content{
+  .flex-content {
     display: flex;
     flex-direction: column;
     width: 105%;
   }
-  .list{
+
+  .list {
     margin-left: 2em;
   }
-  .popText{
+
+  .popText {
     width: 100%;
   }
+
   .closecross {
     margin-right: -95%;
     z-index: 2;
   }
-  .popicon{
+
+  .popicon {
     width: 100%;
   }
 
@@ -809,22 +807,25 @@ body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
   }
-  .flex-content{
+
+  .flex-content {
     display: flex;
     flex-direction: row;
     width: 105%;
   }
-  .popText{
+
+  .popText {
     width: 70%;
   }
+
   .closecross {
     margin-right: -95%;
     z-index: 2;
   }
-  .popicon{
+
+  .popicon {
     width: 310px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
