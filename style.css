@@ -385,6 +385,12 @@ body {
     height: 48px;
   }
 
+  #message2 {
+    color: red;
+    background-color: #fff;
+    width: fit-content;
+  }
+
   .form-section form textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
