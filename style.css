@@ -204,7 +204,7 @@ body {
   .programes ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     gap: 10px;
   }
 
@@ -304,6 +304,45 @@ body {
     font-family: 'Poppins', sans-serif;
   }
 
+  .popicon hr {
+    color: #ebecf0;
+    width: 95%;
+    height: 2px;
+    margin: 12px 0;
+  }
+
+  .m-button {
+    display: flex;
+    gap: 12px;
+    margin-left: 9px;
+  }
+
+  .about-me button,
+  .cardio {
+    padding: 12px;
+    gap: 10px;
+    background: #d3c7c7;
+    border: 1px solid #3644c1;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #2434bd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 48px;
+  }
+
+  .m-button a button {
+    padding: 12px 22px;
+  }
+
   .logo-icons ul {
     display: flex;
     gap: 12px;
@@ -367,7 +406,7 @@ body {
     gap: 24px;
     margin-left: 12px;
   }
-
+  
   .about-me button,
   .cardio {
     padding: 12px;
@@ -395,7 +434,7 @@ body {
     background-color: #fff;
     width: fit-content;
   }
-
+  
   .form-section form textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
@@ -573,10 +612,13 @@ body {
   }
 
   .cardtitle {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
   }
 
   .Popupimage {
@@ -615,7 +657,7 @@ body {
   }
 
   .list {
-    margin-left: 2em;
+    /* margin-left: 2em; */
   }
 
   .popText {
@@ -629,6 +671,9 @@ body {
 
   .popicon {
     width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
   }
 
   .list-inline-item {

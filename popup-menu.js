@@ -129,6 +129,7 @@ document.getElementById('portfolio').innerHTML = works.map((item) => `
                 <li>Javascript</li>
               </ul>
             </div>
+            <hr>
             <div class="m-button">
             <a href="${item.portfolioLive}"><button type="type" id="left">${item.live} ${item.IconLive}</button></a>
             <a href="${item.softLinkToRepo}"><button type="type">${item.source} ${item.IconSource}</button></a>           
