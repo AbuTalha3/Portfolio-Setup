@@ -133,19 +133,18 @@
         <h3>Contact me</h3>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that
           needs coding. I’d love to help with it!</p>
-        <form action="https://formspree.io/f/xzbqlavz" method="post">
+        <form id="error2" action="https://formspree.io/f/xzbqlavz" method="post">
           <input type="text" maxlength="30" placeholder="Full Name" required>
-          <input type="email" name="email" id="" placeholder="Email address" required>
+          <input type="email" name="email" id="email" placeholder="Email address" required>
           <textarea name="message" id="" maxlength="500" placeholder="Write your message here..." required></textarea>
-          <!-- <div class="card-text"> -->
-          <button class="cardio" type="submit">Get in touch</button>
-          <!-- </div>                         -->
+          <p id ="message2"></p>
+          <button class="cardio" type="submit">Get in touch</button>                                
           <div class="liner"></div>
         </form>
       </section>
     </main>
-
     <script src="menu.js"></script>
     <script src="popup-menu.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
