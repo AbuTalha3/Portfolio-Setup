@@ -845,6 +845,7 @@ body {
     width: 302px;
     border-radius: 8px;
     padding: 24px;
+    object-fit: cover;
   }
 
   .form-section {
