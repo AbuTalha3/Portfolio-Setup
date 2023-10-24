@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio-Setup <a name="about-project"></a>
 
-This is the mobile size web page project, it tests more on Git, GitHub, GitHub Workflow and Linters.
+This is the PORTFOLIO SETUP where an introduction to oneself is given, and many of the projects and languages are mentioned. This is the mobile-size web page project, it tests more on Git, GitHub, GitHub Workflow, and Linters.
 
 *[Portfolio-Setup]* is a HTML CSS project
 
