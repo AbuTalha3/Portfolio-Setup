@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio-Setup <a name="about-project"></a>
 
-This is the PORTFOLIO SETUP where an introduction to oneself is given, and many of the projects and languages are mentioned. This is the mobile-size web page project, it tests more on Git, GitHub, GitHub Workflow, and Linters.
+My Portfolio is a webpage made with HTML, CSS, and JavaScript, with a number of interactive pages, About me and contact page, etc, It displays the projects and languages I have worked on. You can just click and have a look.
 
 *[Portfolio-Setup]* is a HTML CSS project
 
@@ -179,8 +179,8 @@ You can deploy this project using:
 
 sh
   gh-pages
-  netlify
-  vercel
+  Netlify
+  Vercel
 
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
@@ -241,7 +241,7 @@ If you like this project you can contact me for any of your coding dreams.
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank Microverse for the opportunity to learn.
+I would like to thank Microverse for the opportunity to learn.An all my peers who assisted me.
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
