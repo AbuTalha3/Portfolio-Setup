@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 My Portfolio is a webpage made with HTML, CSS, and JavaScript, with a number of interactive pages, About me and contact page, etc, It displays the projects and languages I have worked on. You can just click and have a look.
 
-*[Portfolio-Setup]* is a HTML CSS project
+*[Portfolio-Setup]* is an HTML CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
 
