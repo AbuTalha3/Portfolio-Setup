@@ -71,7 +71,7 @@ My Portfolio is a webpage made with HTML, CSS, and JavaScript, with a number of 
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- Hyper Text Markup Languag
+- Hyper Text Markup Language
 - Cascading Style Sheets
 - JavaScript
 - Linters
