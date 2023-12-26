@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio-Setup <a name="about-project"></a>
 
-My Portfolio is a webpage made with `HTML`, CSS, and JavaScript, with a number of interactive pages, About me and contact page, etc, It displays the projects and languages I have worked on. You can just click and have a look.
+My Portfolio is a webpage made with `HTML`, `CSS`, and JavaScript, with a number of interactive pages, About me and contact page, etc, It displays the projects and languages I have worked on. You can just click and have a look.
 
 *[Portfolio-Setup]* is an HTML CSS project
 
