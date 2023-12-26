@@ -73,7 +73,7 @@ My Portfolio is a webpage made with `HTML`, `CSS`, and `JavaScript`, with a numb
 
 - `Hyper Text Markup Language`
 - `Cascading Style Sheets`
-- JavaScript
+- `JavaScript`
 - Linters
 
 <!-- <details>
