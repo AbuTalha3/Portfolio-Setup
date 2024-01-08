@@ -103,7 +103,7 @@ My Portfolio is a webpage made with `Hyper Text Markup Language`, `Cascading Sty
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- *Understanding Git, GitHub and GitHub Workflow*
+- *Understanding Git, *GitHub* and GitHub Workflow*
 - *Configuring Linters*
 - *Creating pull requests and merging*
 
