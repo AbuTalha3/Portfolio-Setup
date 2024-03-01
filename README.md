@@ -72,7 +72,8 @@ My Portfolio is a webpage made with `Hyper Text Markup Language`, `Cascading Sty
 ### Tech Stack <a name="tech-stack"></a>
 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-- `Cascading Style Sheets`
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+- 
 - `JavaScript`
 - `Linters`
 
